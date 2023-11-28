@@ -7,9 +7,8 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-Education
-======
-* B.E. in Computer Science, Shanghai Jiao Tong University, 2023
-* Ph.D. in Computer Science, Shanghai Jiao Tong University, 2028 (expected)
+## Education
+* <b> Shanghai Jiao Tong University </b>
+  * Ph.D. in Computer Science <span style="float:right;"> 2023.09 - current <\span>
+    * Supervisor: [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
+  * B.E. in Computer Science <span style="float:right;"> 2019.09 - 2023.06 <\span>
