@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-* I'm a first-year Ph.D. student in Shanghai Jiao Tong University supervised by [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/).
-* My research interest mainly lies on approximate counting and sampling in theoretical computer science.
+## Biography
+I'm Zhidan Li (李至丹), a first-year Ph.D. student in Shanghai Jiao Tong University supervised by [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/). Before that, I obtained my Bachelor degree in Computer Science from ACM Honor Class at Shanghai Jiao Tong University in 2023.
 
-* You can find my [CV](../files/cv.pdf) here.
+My research interest mainly lies on approximate counting and sampling in theoretical computer science, especially on the topic of local-to-global frameworks.
+
+You can find my [CV](../files/cv.pdf) here.
