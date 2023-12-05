@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,3 +14,6 @@ I'm Zhidan Li (李至丹), a first-year Ph.D. student in Shanghai Jiao Tong Univ
 My research interest mainly lies on approximate counting and sampling in theoretical computer science, especially on the topic of local-to-global frameworks.
 
 You can find my [CV](../files/cv.pdf) here.
+
+## Contact
+* lizhidan17 [at] gmail [dot] com
