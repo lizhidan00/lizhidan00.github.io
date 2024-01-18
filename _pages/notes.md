@@ -25,4 +25,5 @@ This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan Coll
   * [Lecture A. Optimal Transport](../files/optimization/A-optimal%20transport.pdf)
   * [Lecture B. Wasserstein Gradient Flow](../files/optimization/B-Wasserstein%20gradient%20flow.pdf)
   * [Lecture C. Mean-Field Networks](../files/optimization/C-mean-field%20networks.pdf)
+
 If you find some typos or faults, or have some suggestions, please feel free to contact me.
