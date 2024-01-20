@@ -11,6 +11,10 @@ This page is a collection of research or learning notes, sorted by alpha-beta or
 This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebraic.pdf) on *CS7343 – Applied Algebraic, Fall 2023* in Shanghai Jiao Tong University.
 
 ## Approximate Counting and Sampling
+The followings are the research notes on the topic of **approximate counting and sampling**.
+* [Canonical Paths, Multi-Commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
+
+## Combinatoric and Graph Theory
 
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
@@ -32,3 +36,5 @@ This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan Coll
   * [Lecture C. Mean-Field Networks](../files/optimization/C-mean-field%20networks.pdf)
 
 If you find some typos or faults, or have some suggestions, please feel free to contact me.
+
+## Probability Theory and Stochastic Processes
