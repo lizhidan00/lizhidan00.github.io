@@ -2,13 +2,15 @@
 permalink: /notes
 title: "Research Notes"
 excerpt: "Research Notes"
-author_profile: false
+author_profile: true
 ---
 
-## Approximate Counting and Sampling
+This page is a collection of research or learning notes, sorted by alpha-beta order.
 
 ## Applied Algebraic
 This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebraic.pdf) on *CS7343 – Applied Algebraic, Fall 2023* in Shanghai Jiao Tong University.
+
+## Approximate Counting and Sampling
 
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
