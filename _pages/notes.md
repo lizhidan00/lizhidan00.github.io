@@ -12,13 +12,14 @@ This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebra
 
 ## Approximate Counting and Sampling
 The followings are the research notes on the topic of **approximate counting and sampling**.
-* [Canonical Paths, Multi-Commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
-
-## Combinatoric and Graph Theory
+* Basic Models
+  * [Monmer-Dimer Models](../files/approximate%20counting%20and%20sampling/monomer-dimer.pdf)
+* State of the Art:
+  * [Canonical Paths, Multi-Commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
 
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
-* The basic parts:
+* The Basic Parts:
   * [Lecture 01. Convex Sets and Functions](../files/optimization/1-convex%20sets%20and%20functions.pdf)
   * [Lecture 02. Gradient Descent](../files/optimization/2-gradient%20descent.pdf)
   * [Lecture 03. Duality](../files/optimization/3-duality.pdf)
@@ -36,5 +37,3 @@ This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan Coll
   * [Lecture C. Mean-Field Networks](../files/optimization/C-mean-field%20networks.pdf)
 
 If you find some typos or faults, or have some suggestions, please feel free to contact me.
-
-## Probability Theory and Stochastic Processes
