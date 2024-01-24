@@ -16,6 +16,8 @@ The followings are the research notes on the topic of **approximate counting and
   * [Monmer-Dimer Models](../files/approximate%20counting%20and%20sampling/monomer-dimer.pdf)
 * State of the Art:
   * [Canonical Paths, Multi-Commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
+* Advance Topics (MCMC 2.0):
+  * [Local-to-Global Framework: High-Dimensional Expander](../files/approximate%20counting%20and%20sampling/simplicial-complex.pdf)
 
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
