@@ -13,7 +13,7 @@ This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebra
 ## Approximate Counting and Sampling
 The followings are the research notes on the topic of **approximate counting and sampling**.
 * Basic Models
-  * [Monmer-Dimer Models](../files/approximate%20counting%20and%20sampling/monomer-dimer.pdf)
+  * [Monomer-Dimer Models](../files/approximate%20counting%20and%20sampling/monomer-dimer.pdf)
 * State of the Art:
   * [Canonical Paths, Multi-Commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
 * Advance Topics (MCMC 2.0):
