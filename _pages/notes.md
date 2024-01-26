@@ -5,7 +5,7 @@ excerpt: "Research Notes"
 author_profile: true
 ---
 
-This page is a collection of research or learning notes, sorted by alpha-beta order.
+This page is a collection of research or learning notes.
 
 ## Applied Algebraic
 This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebraic.pdf) on *CS7343 – Applied Algebraic, Fall 2023* in Shanghai Jiao Tong University.
