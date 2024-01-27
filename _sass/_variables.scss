@@ -6,16 +6,16 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 12;
+$doc-font-size              : 16;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Garamond, Times, serif;
+$serif                      : Georgia, Times, serif;
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$sans-serif                 : -apple-system, Garamond, Garamond, Garamond, Garamond, "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : 'Linux Libertine','Cormorant Garamond','Belleza','Roboto','Noto Sans SC','Hiragino Sans GB',"Microsoft Yahei New","Microsoft Yahei","LiHei Pro",sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
