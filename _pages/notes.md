@@ -1,7 +1,7 @@
 ---
 permalink: /notes
-title: "Research Notes"
-excerpt: "Research Notes"
+title: "Research and Learning Notes"
+excerpt: "Research and Learning Notes"
 author_profile: true
 ---
 
