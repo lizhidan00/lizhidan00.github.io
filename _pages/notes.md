@@ -20,6 +20,12 @@ The followings are the research notes on the topic of **approximate counting and
   * [Local-to-Global Frameworks: High-Dimensional Expander](../files/approximate%20counting%20and%20sampling/simplicial-complex.pdf)
   * [Local-to-Global Frameworks: Localization Schemes](../files/approximate%20counting%20and%20sampling/localization-scheme.pdf)
 
+## Combinatorics and Graph Theory
+The followings are the notes on the topic of **combinatorics and graph theory**.
+* Christoffel-Darboux Identity:
+  * [Christoffel-Darboux Identity of the Independence Polynomial](../files/combinatorics%20and%20graph%20theory/Christoffel-Darboux-identity.pdf)
+* [Non-Backtracking Matrix (Hashimoto Matrix)](../files/combinatorics%20and%20graph%20theory/non-backtracking.pdf)
+
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
 * The Basic Parts:
