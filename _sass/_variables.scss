@@ -16,11 +16,11 @@ $indent-var                 : 1.3em;
 /* default settings
 $serif                      : Georgia, Times, serif;
 */
-$serif                      : Garamond, Garamond, serif;
+$serif                      : 'Cormorant Garamond', 'Cormorant Garamond', serif;
 /* default settings
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 */
-$sans-serif                 : "Linux Libertine", Garamond, "Belleza", "Roboto", "Noto Sans SC", "Hiragino Sans GB", "Microsoft Yahei New", "Microsoft Yahei", "LiHei Pro", sans-serif;
+$sans-serif                 : 'Linux Libertine', 'Cormorant Garamond', 'Belleza', 'Roboto', 'Noto Sans SC', 'Hiragino Sans GB', "Microsoft Yahei New", "Microsoft Yahei", "LiHei Pro", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -32,7 +32,7 @@ $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$garamond                   : 'Cormorant Garamond', serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
