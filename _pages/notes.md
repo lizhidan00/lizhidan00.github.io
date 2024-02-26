@@ -2,7 +2,7 @@
 permalink: /notes
 title: "Research and Learning Notes"
 excerpt: "Research and Learning Notes"
-author_profile: true
+author_profile: false
 ---
 
 This page is a collection of research or learning notes.
@@ -25,6 +25,7 @@ The followings are the notes on the topic of **combinatorics and graph theory**.
 * Christoffel-Darboux Identity:
   * [Christoffel-Darboux Identity of the Independence Polynomial](../files/combinatorics%20and%20graph%20theory/Christoffel-Darboux-identity.pdf)
 * [Non-Backtracking Matrix (Hashimoto Matrix)](../files/combinatorics%20and%20graph%20theory/non-backtracking.pdf)
+* [Notes on Random Graph Theory](../files/combinatorics%20and%20graph%20theory/random-graph-notes.pdf)
 
 ## Optimization
 This is the lecture notes on *CS2910: Optimization, Summer 2023* in Zhiyuan College, Shanghai Jiao Tong University, instructed by [Yunwei Ren](https://yunwei-ren.me/).
