@@ -17,3 +17,6 @@ You can find my [CV](../files/cv.pdf) here.
 
 ## Contact
 * lizhidan17 [at] gmail [dot] com
+
+## Misc
+* During my spare time, I play MOBA games (*e.g.*, DOTA2). I was ever a fans of LGD Gaming (but have been disappointed from The International 8).
