@@ -12,4 +12,4 @@ author_profile: true
 * FPTAS for Holant Problems with Log-Concave Signatures<br>
   with [Kun He](https://hekun-theory.com/), Guoliang Qiu and [Chihao Zhang](http://chihaozhang.com/)<br>
   *Submitted* <br>
-  **Available at**: [[PDF](../files/publications/holant.pdf)]
+  **Available at**: [[PDF](../files/publications/holant.pdf)] | [[arXiv](https://arxiv.org/abs/2407.04989)]
