@@ -20,3 +20,5 @@ author_profile: true
     * Instructor: [Yunwei Ren](https://yunwei-ren.me/)
   * [MATH3806: *Optimization Methods* (Fall 2023, Shanghai Jiao Tong University)](https://jhc.sjtu.edu.cn/~kuanyang/teaching/MATH3806/)
     * Instructors: [Bo Jiang](https://jhc.sjtu.edu.cn/~bjiang/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
+  * [CS0901: *Combinatorics* (Fall 2024, Shanghai Jiao Tong University)](https://jhc.sjtu.edu.cn/~kuanyang/teaching/CS0901/)
+    * Instructors: [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
