@@ -13,6 +13,7 @@ This is the [lecture notes](../files/applied%20algebraic/notes-applied%20algebra
 ## Approximate Counting and Sampling
 The followings are the research notes on the topic of **approximate counting and sampling**.
 * Basic Models
+  * [$k$-heights Models](../files/approximate%20counting%20and%20sampling/k-height.pdf)
   * [Monomer-dimer Models](../files/approximate%20counting%20and%20sampling/monomer-dimer.pdf)
   * [Six-vertex Models](../files/approximate%20counting%20and%20sampling/six-vertex.pdf)
 * State of the Art:
