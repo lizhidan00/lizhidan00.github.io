@@ -18,9 +18,10 @@ The followings are the research notes on the topic of **approximate counting and
   * [Six-vertex Models](../files/approximate%20counting%20and%20sampling/six-vertex.pdf)
 * State of the Art:
   * [Canonical Paths, Multi-commodity Flows and Windability](../files/approximate%20counting%20and%20sampling/winding.pdf)
+  * [Correlation-decay and Computational Tree for Potts Models](../files/approximate%20counting%20and%20sampling/computational-tree.pdf)
   * [Path Coupling](../files/approximate%20counting%20and%20sampling/path-coupling.pdf)
 * Advance Topics (MCMC 2.0):
-  * [Local-to-global Frameworks: High-Dimensional Expander](../files/approximate%20counting%20and%20sampling/simplicial-complex.pdf)
+  * [Local-to-global Frameworks: High-dimensional Expander](../files/approximate%20counting%20and%20sampling/simplicial-complex.pdf)
   * [Local-to-global Frameworks: Localization Schemes](../files/approximate%20counting%20and%20sampling/localization-scheme.pdf)
 
 ## Combinatorics and Graph Theory
