@@ -22,3 +22,7 @@ author_profile: true
     * Instructors: [Bo Jiang](https://jhc.sjtu.edu.cn/~bjiang/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
   * [CS0901: *Combinatorics* (Fall 2024, Shanghai Jiao Tong University)](https://jhc.sjtu.edu.cn/~kuanyang/teaching/CS0901/)
     * Instructors: [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
+  * [CS3341: *Advanced Algorithms* (Spring 2025, Shanghai Jiao Tong University)](https://https://jhc.sjtu.edu.cn/~kuanyang/teaching/CS3341/)
+    * Instructors: [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
+  * [CS0901: *Combinatorics* (Fall 2025, Shanghai Jiao Tong University)](https://jhc.sjtu.edu.cn/~kuanyang/teaching/CS0901/)
+    * Instructors: [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)
