@@ -1,1 +1,1 @@
-Welcome to the site of [Zhidan](lizhidan00.github.io)!
+This is a private repository to reveal the personal site of the owner, Zhidan Li, who is a Ph.D. student from School of Computer Science Shanghai Jiao Tong University.
