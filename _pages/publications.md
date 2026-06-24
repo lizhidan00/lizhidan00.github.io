@@ -9,6 +9,11 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+* Counting and Sampling Anti-Ferromagnetic Potts Models on Random Regular Bipartite Graphs in the Non-uniqueness Regime<br>
+  with Siyu Liu and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
+  Preprint.<br>
+  **Available at**: [[PDF](../files/publications/bipartite-anti-ferro-Potts.pdf)] | [[arXiv](https://arxiv.org/abs/2606.21250)]
+
 * FPTAS for Holant problems with log-concave signatures<br>
   with [Kun He](https://hekun-theory.com/), Guoliang Qiu and [Chihao Zhang](http://chihaozhang.com/)<br>
   In *Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms* (**SODA 2025**). <br>
