@@ -11,7 +11,7 @@ redirect_from:
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-* Counting and Sampling Anti-ferromagnetic Potts Models on Random Regular Bipartite Graphs in the Non-uniqueness Regime<br>
+* Counting and sampling anti-ferromagnetic Potts models on random regular bipartite graphs in the non-uniqueness regime<br>
   with Siyu Liu and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
   **Available at**: [[PDF](../files/publications/bipartite-anti-ferro-Potts.pdf)] | [[arXiv](https://arxiv.org/abs/2606.21250)]
