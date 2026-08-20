@@ -14,7 +14,7 @@ redirect_from:
 * An FPRAS for antiferromagnetic Ising models on random regular bipartite graphs<br>
   with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
-  **Available at**: [[PDF](../files/publications/trickle-down-random-regular-bipartite-Ising.pdf)] | [arXiv on hold]
+  **Available at**: [[PDF](../files/publications/trickle-down-random-regular-bipartite-Ising.pdf)] | [[arXiv](https://arxiv.org/abs/2608.18612)]
 
 * Counting and sampling anti-ferromagnetic Potts models on random regular bipartite graphs in the non-uniqueness regime<br>
   with Siyu Liu and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
