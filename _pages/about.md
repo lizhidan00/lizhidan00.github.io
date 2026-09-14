@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## Biography
-I am Zhidan Li (李至丹), a third-year Ph.D. student in Shanghai Jiao Tong University supervised by [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/). Before that, I obtained my Bachelor degree in Computer Science from ACM Honor Class at Shanghai Jiao Tong University in 2023.
+I am Zhidan Li (李至丹), a fourth-year Ph.D. student in Shanghai Jiao Tong University supervised by [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/). Before that, I obtained my Bachelor degree in Computer Science from ACM Honor Class at Shanghai Jiao Tong University in 2023.
 
 My research interest mainly lies on approximate counting and sampling in theoretical computer science, especially topics on random structures. Additionally my research attention is put on the topic of algorithmic approximation algorithms inspired by statistical physics.
 
