@@ -14,7 +14,7 @@ redirect_from:
 * Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs<br>
   with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
-  **Available at**: [[PDF](../files/publications/LP-recursion.pdf)] | [[arXiv](https://arxiv.org/pdf/2609.13138)]
+  **Available at**: [[PDF](../files/publications/LP-recursion.pdf)] | [[arXiv](https://arxiv.org/abs/2609.12352)]
 
 * An FPRAS for antiferromagnetic Ising models on random regular bipartite graphs<br>
   with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
