@@ -14,7 +14,7 @@ redirect_from:
 * Fast Almost-Uniform Sampling of Random $k$-SAT Solutions<br>
   with [Kun He](https://hekun-theory.com/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
-  **Available at**: [[PDF](../files/publications/fast-random-k-SAT.pdf)]
+  **Available at**: [[PDF](../files/publications/fast-random-k-SAT.pdf)] | [[arXiv](http://arxiv.org/abs/2610.10474)]
 
 * Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs<br>
   with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
