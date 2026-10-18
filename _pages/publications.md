@@ -11,6 +11,11 @@ redirect_from:
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+* Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold<br>
+  with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
+  Preprint.<br>
+  **Available at**: [[PDF](../files/publications/random-graph-coloring-CI.pdf)] | [arXiv on hold]
+
 * Fast Almost-Uniform Sampling of Random $k$-SAT Solutions<br>
   with [Kun He](https://hekun-theory.com/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
