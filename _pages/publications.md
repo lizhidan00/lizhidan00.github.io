@@ -14,7 +14,7 @@ redirect_from:
 * Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold<br>
   with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
   Preprint.<br>
-  **Available at**: [[PDF](../files/publications/random-graph-coloring-CI.pdf)] | [arXiv on hold]
+  **Available at**: [[PDF](../files/publications/random-graph-coloring-CI.pdf)] | [[arXiv](https://arxiv.org/abs/2610.25391)]
 
 * Fast Almost-Uniform Sampling of Random $k$-SAT Solutions<br>
   with [Kun He](https://hekun-theory.com/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
