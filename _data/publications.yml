@@ -1,0 +1,48 @@
+author_links:
+  Kun He: https://hekun-theory.com/
+  Kuan Yang: https://jhc.sjtu.edu.cn/~kuanyang/
+  Chihao Zhang: http://chihaozhang.com/
+
+papers:
+  - title: "Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold"
+    authors: [Zhidan Li, Kuan Yang]
+    year: 2026
+    venue: Preprint
+    pdf: /files/publications/random-graph-coloring-CI.pdf
+    arxiv: https://arxiv.org/abs/2610.25391
+
+  - title: "Fast Almost-Uniform Sampling of Random *k*-SAT Solutions"
+    authors: [Kun He, Zhidan Li, Kuan Yang]
+    year: 2026
+    venue: Preprint
+    pdf: /files/publications/fast-random-k-SAT.pdf
+    arxiv: https://arxiv.org/abs/2610.10474
+
+  - title: "Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs"
+    authors: [Zhidan Li, Kuan Yang]
+    year: 2026
+    venue: Preprint
+    pdf: /files/publications/LP-recursion.pdf
+    arxiv: https://arxiv.org/abs/2609.12352
+
+  - title: "An FPRAS for antiferromagnetic Ising models on random regular bipartite graphs"
+    authors: [Zhidan Li, Kuan Yang]
+    year: 2026
+    venue: Preprint
+    pdf: /files/publications/trickle-down-random-regular-bipartite-Ising.pdf
+    arxiv: https://arxiv.org/abs/2608.18612
+
+  - title: "Counting and sampling anti-ferromagnetic Potts models on random regular bipartite graphs in the non-uniqueness regime"
+    authors: [Zhidan Li, Siyu Liu, Kuan Yang]
+    year: 2026
+    venue: Preprint
+    pdf: /files/publications/bipartite-anti-ferro-Potts.pdf
+    arxiv: https://arxiv.org/abs/2606.21250
+
+  - title: "FPTAS for Holant problems with log-concave signatures"
+    authors: [Kun He, Zhidan Li, Guoliang Qiu, Chihao Zhang]
+    year: 2025
+    venue: "Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2025)"
+    pdf: /files/publications/holant.pdf
+    arxiv: https://arxiv.org/abs/2407.04989
+    doi: https://doi.org/10.1137/1.9781611978322.186

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhidan Li"
 title_separator          : "-"
 name                     : &name "Zhidan Li"
-description              : &description "personal description"
+description              : &description "Academic homepage of Zhidan Li, Ph.D. candidate at Shanghai Jiao Tong University."
 url                      : https://lizhidan00.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lizhidan00/lizhidan00.github.io"
@@ -103,7 +103,7 @@ author:
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0009-0003-1919-3906"
+  orcid            : "https://orcid.org/0009-0003-1919-3906"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

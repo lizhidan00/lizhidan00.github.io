@@ -1,42 +1,17 @@
 ---
-layout: archive
-title: "Research Papers"
+layout: academic
+title: Publications
 permalink: /publications/
-author_profile: true
-redirect_from: 
+redirect_from:
   - /papers/
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+[Google Scholar]({{ site.author.googlescholar }})
 {% endif %}
 
-* Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold<br>
-  with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
-  Preprint.<br>
-  **Available at**: [[PDF](../files/publications/random-graph-coloring-CI.pdf)] | [[arXiv](https://arxiv.org/abs/2610.25391)]
-
-* Fast Almost-Uniform Sampling of Random $k$-SAT Solutions<br>
-  with [Kun He](https://hekun-theory.com/) and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
-  Preprint.<br>
-  **Available at**: [[PDF](../files/publications/fast-random-k-SAT.pdf)] | [[arXiv](http://arxiv.org/abs/2610.10474)]
-
-* Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs<br>
-  with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
-  Preprint.<br>
-  **Available at**: [[PDF](../files/publications/LP-recursion.pdf)] | [[arXiv](https://arxiv.org/abs/2609.12352)]
-
-* An FPRAS for antiferromagnetic Ising models on random regular bipartite graphs<br>
-  with [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
-  Preprint.<br>
-  **Available at**: [[PDF](../files/publications/trickle-down-random-regular-bipartite-Ising.pdf)] | [[arXiv](https://arxiv.org/abs/2608.18612)]
-
-* Counting and sampling anti-ferromagnetic Potts models on random regular bipartite graphs in the non-uniqueness regime<br>
-  with Siyu Liu and [Kuan Yang](https://jhc.sjtu.edu.cn/~kuanyang/)<br>
-  Preprint.<br>
-  **Available at**: [[PDF](../files/publications/bipartite-anti-ferro-Potts.pdf)] | [[arXiv](https://arxiv.org/abs/2606.21250)]
-
-* FPTAS for Holant problems with log-concave signatures<br>
-  with [Kun He](https://hekun-theory.com/), Guoliang Qiu and [Chihao Zhang](http://chihaozhang.com/)<br>
-  In *Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms* (**SODA 2025**).<br>
-  **Available at**: [[PDF](../files/publications/holant.pdf)] | [[arXiv](https://arxiv.org/abs/2407.04989)] | [[doi](https://doi.org/10.1137/1.9781611978322.186)]
+{% assign publication_years = site.data.publications.papers | group_by: "year" %}
+{% for year in publication_years %}
+<h2 class="publication__year">{{ year.name }}</h2>
+{% include publication-list.html papers=year.items %}
+{% endfor %}
