@@ -29,11 +29,3 @@ redirect_from:
   </div>
   <img class="profile__photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="1024" height="768" alt="Zhidan Li in front of the pyramids at Giza">
 </section>
-
-<section class="recent-publications" aria-labelledby="recent-publications-title">
-  <div class="section-heading">
-    <h2 id="recent-publications-title">Recent publications</h2>
-    <a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
-  </div>
-  {% include publication-list.html limit=3 %}
-</section>
