@@ -205,27 +205,8 @@ main {
   font-weight: 600;
 }
 
-.recent-publications {
-  margin-top: clamp(3.1rem, 7vw, 5.5rem);
-}
-
-.section-heading {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.4rem 1.5rem;
-  padding-bottom: 0.95rem;
-}
-
-.section-heading h2,
 .page-content h2 {
   font-size: clamp(1.95rem, 3.5vw, 2.6rem);
-}
-
-.section-heading > a {
-  font-size: 0.875rem;
-  font-weight: 600;
 }
 
 .publication-list {
