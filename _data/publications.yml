@@ -10,6 +10,23 @@ papers:
     venue: Preprint
     pdf: /files/publications/random-graph-coloring-CI.pdf
     arxiv: https://arxiv.org/abs/2610.25391
+    bibtex: |-
+      @misc{LiYang2026RandomGraphColorings,
+        title = {Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold},
+        author = {Li, Zhidan and Yang, Kuan},
+        year = {2026},
+        eprint = {2610.25391},
+        archivePrefix = {arXiv},
+        url = {https://arxiv.org/abs/2610.25391}
+      }
+    summary: >-
+      We prove polynomial-time mixing of single-site Glauber dynamics for sampling
+      proper colorings of sparse Erdős–Rényi graphs. With high probability over
+      the graph, the result holds for sufficiently large fixed average degree at
+      a number of colors asymptotically matching the regular-tree uniqueness
+      threshold. The proof combines coupling and spectral independence, entropy
+      factorization with buffers around high-degree vertices, and a comparison
+      between block dynamics and single-site updates.
 
   - title: "Fast Almost-Uniform Sampling of Random *k*-SAT Solutions"
     authors: [Kun He, Zhidan Li, Kuan Yang]
@@ -17,6 +34,23 @@ papers:
     venue: Preprint
     pdf: /files/publications/fast-random-k-SAT.pdf
     arxiv: https://arxiv.org/abs/2610.10474
+    bibtex: |-
+      @misc{HeLiYang2026RandomKSAT,
+        title = {Fast Almost-Uniform Sampling of Random {k-SAT} Solutions},
+        author = {He, Kun and Li, Zhidan and Yang, Kuan},
+        year = {2026},
+        eprint = {2610.10474},
+        archivePrefix = {arXiv},
+        url = {https://arxiv.org/abs/2610.10474}
+      }
+    summary: >-
+      We give an almost-uniform sampler for solutions of random *k*-SAT formulas
+      at densities exponential in the clause width up to a polynomial factor,
+      for sufficiently large fixed width. With high probability over the formula,
+      the sampler achieves inverse-polynomial total-variation accuracy in nearly
+      quadratic expected time. It combines rejection–repair sampling on a
+      bounded-dependency remainder with approximate block heat-bath updates on
+      a high-degree core, analyzed through a polymer expansion.
 
   - title: "Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs"
     authors: [Zhidan Li, Kuan Yang]
@@ -24,6 +58,26 @@ papers:
     venue: Preprint
     pdf: /files/publications/LP-recursion.pdf
     arxiv: https://arxiv.org/abs/2609.12352
+    bibtex: |-
+      @misc{LiYang2026MultiSpin,
+        title = {Spatial mixing and deterministic approximate counting of multi-spin systems beyond bounded degree graphs},
+        author = {Li, Zhidan and Yang, Kuan},
+        year = {2026},
+        eprint = {2609.12352},
+        archivePrefix = {arXiv},
+        url = {https://arxiv.org/abs/2609.12352}
+      }
+    summary: >-
+      We develop a deterministic approximate-counting framework for multi-spin
+      systems beyond bounded-degree graphs. Recursive rational polytopes and
+      linear-fractional programming certify marginal-ratio bounds, yielding
+      spatial mixing with a polynomial prefactor and a fully polynomial-time
+      approximation scheme for positive interactions under a contraction
+      condition involving the polynomial connective constant.
+      A permissive-block extension gives a deterministic approximation scheme
+      for proper colorings of sparse Erdős–Rényi graphs, with high probability,
+      using a palette just above twice the average degree for sufficiently large
+      fixed average degree.
 
   - title: "An FPRAS for antiferromagnetic Ising models on random regular bipartite graphs"
     authors: [Zhidan Li, Kuan Yang]
@@ -31,6 +85,23 @@ papers:
     venue: Preprint
     pdf: /files/publications/trickle-down-random-regular-bipartite-Ising.pdf
     arxiv: https://arxiv.org/abs/2608.18612
+    bibtex: |-
+      @misc{LiYang2026Ising,
+        title = {An {FPRAS} for antiferromagnetic {Ising} models on random regular bipartite graphs},
+        author = {Li, Zhidan and Yang, Kuan},
+        year = {2026},
+        eprint = {2608.18612},
+        archivePrefix = {arXiv},
+        url = {https://arxiv.org/abs/2608.18612}
+      }
+    summary: >-
+      We give a fully polynomial-time randomized approximation scheme for the
+      partition function of antiferromagnetic Ising models on random regular
+      bipartite graphs, with high probability over the graph. For sufficiently
+      large degree, the result applies under suitable conditions on the field
+      and interaction strengths and extends into the tree non-uniqueness regime.
+      The algorithm truncates unlikely configurations and samples on fixed-size
+      slices using concentration estimates and high-dimensional expansion.
 
   - title: "Counting and sampling anti-ferromagnetic Potts models on random regular bipartite graphs in the non-uniqueness regime"
     authors: [Zhidan Li, Siyu Liu, Kuan Yang]
@@ -38,6 +109,25 @@ papers:
     venue: Preprint
     pdf: /files/publications/bipartite-anti-ferro-Potts.pdf
     arxiv: https://arxiv.org/abs/2606.21250
+    bibtex: |-
+      @misc{LiLiuYang2026Potts,
+        title = {Counting and sampling anti-ferromagnetic {Potts} models on random regular bipartite graphs in the non-uniqueness regime},
+        author = {Li, Zhidan and Liu, Siyu and Yang, Kuan},
+        year = {2026},
+        eprint = {2606.21250},
+        archivePrefix = {arXiv},
+        url = {https://arxiv.org/abs/2606.21250}
+      }
+    summary: >-
+      For the antiferromagnetic Potts model with at least three spin states on
+      random regular bipartite graphs, we prove exponentially slow mixing of
+      single-site Glauber dynamics at sufficiently low temperature and
+      sufficiently large degree relative to
+      the number of spin states, with high probability over the graph. In the
+      same regime, ordered-phase decompositions and polymer expansions give a
+      deterministic fully polynomial-time approximation scheme for the partition
+      function. The counting result also includes proper colorings at zero
+      temperature.
 
   - title: "FPTAS for Holant problems with log-concave signatures"
     authors: [Kun He, Zhidan Li, Guoliang Qiu, Chihao Zhang]
@@ -46,3 +136,22 @@ papers:
     pdf: /files/publications/holant.pdf
     arxiv: https://arxiv.org/abs/2407.04989
     doi: https://doi.org/10.1137/1.9781611978322.186
+    bibtex: |-
+      @inproceedings{HeLiQiuZhang2025Holant,
+        title = {{FPTAS} for {Holant} problems with log-concave signatures},
+        author = {He, Kun and Li, Zhidan and Qiu, Guoliang and Zhang, Chihao},
+        booktitle = {Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+        pages = {5468--5503},
+        year = {2025},
+        publisher = {Society for Industrial and Applied Mathematics},
+        doi = {10.1137/1.9781611978322.186},
+        url = {https://doi.org/10.1137/1.9781611978322.186}
+      }
+    summary: >-
+      We develop a deterministic fully polynomial-time approximation scheme for
+      counting *b*-matchings on graphs of bounded maximum degree. The method
+      extends to Boolean Holant problems with nonnegative, symmetric log-concave
+      signatures that are positive at the all-zero input and have bounded ratios
+      between their values at Hamming weights one and zero. An extended coupling tree lets
+      a linear program encode the required coupling without knowing which edge
+      to choose, yielding controlled estimates of marginal ratios.

@@ -21,6 +21,22 @@
           {%- endfor -%}
         </p>
         <p class="publication__venue">{{ paper.venue | escape }}</p>
+        {% if paper.summary %}
+          <details class="publication__summary">
+            <summary aria-label="Summary of {{ publication_label }}">Summary</summary>
+            <div class="publication__abstract">{{ paper.summary | escape | markdownify }}</div>
+          </details>
+        {% endif %}
+        {% if paper.bibtex %}
+          <details class="publication__summary publication__citation">
+            <summary aria-label="BibTeX citation for {{ publication_label }}">BibTeX</summary>
+            <pre class="publication__bibtex"><code>{{ paper.bibtex | escape }}</code></pre>
+            <div class="publication__citation-actions">
+              <button class="publication__copy" type="button" data-copy-bibtex aria-label="Copy BibTeX for {{ publication_label }}" hidden>Copy BibTeX</button>
+              <span class="publication__copy-status" role="status"></span>
+            </div>
+          </details>
+        {% endif %}
       </div>
       <div class="publication__links">
         <a href="{{ paper.pdf | relative_url }}" aria-label="PDF of {{ publication_label }}">PDF</a>

@@ -15,3 +15,5 @@ redirect_from:
 <h2 class="publication__year">{{ year.name }}</h2>
 {% include publication-list.html papers=year.items %}
 {% endfor %}
+
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
