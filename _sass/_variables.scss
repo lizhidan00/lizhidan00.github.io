@@ -12,16 +12,10 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* system typefaces */
-/* default settings
-$serif                      : Georgia, Times, serif;
-*/
-$serif                      : 'Linux Libertine', 'Cormorant Garamond', serif;
-/* default settings
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-*/
-$sans-serif                 : -apple-system, 'Linux Libertine', 'Cormorant Garamond', 'Belleza', 'Roboto', 'Noto Sans SC', 'Hiragino Sans GB', "Microsoft Yahei New", "Microsoft Yahei", "LiHei Pro", sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* site typefaces */
+$serif                      : var(--cm-roman);
+$sans-serif                 : $serif;
+$monospace                  : var(--cm-typewriter);
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;

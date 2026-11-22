@@ -1,3 +1,5 @@
+const backgroundBlue = "76, 128, 181";
+
 const backgroundNodes = [
   [56, 120],
   [168, 72],
@@ -29,7 +31,8 @@ document.querySelectorAll(".research-background[data-structure]").forEach((canva
   const context = canvas.getContext("2d");
   if (!context) return;
 
-  context.strokeStyle = "rgba(45, 98, 83, 0.18)";
+  context.strokeStyle = `rgba(${backgroundBlue}, 0.18)`;
+  context.fillStyle = `rgba(${backgroundBlue}, 0.32)`;
   context.lineWidth = 2;
   context.lineCap = "round";
   context.beginPath();
@@ -42,7 +45,6 @@ document.querySelectorAll(".research-background[data-structure]").forEach((canva
   backgroundNodes.forEach(([x, y]) => {
     context.beginPath();
     context.arc(x, y, 4.5, 0, 2 * Math.PI);
-    context.fillStyle = "rgba(45, 98, 83, 0.32)";
     context.fill();
   });
 });
@@ -56,7 +58,7 @@ if (centralContext) {
   const neighborhoods = [[0, 1, 5], [1, 2, 5], [2, 3, 4]];
 
   // A bipartite factor graph connects circular variables to square constraints.
-  centralContext.strokeStyle = "rgba(45, 98, 83, 0.06)";
+  centralContext.strokeStyle = `rgba(${backgroundBlue}, 0.06)`;
   centralContext.lineWidth = 1.5;
   centralContext.beginPath();
   factors.forEach(([x, y], index) => {
@@ -67,7 +69,7 @@ if (centralContext) {
   });
   centralContext.stroke();
 
-  centralContext.fillStyle = "rgba(45, 98, 83, 0.055)";
+  centralContext.fillStyle = `rgba(${backgroundBlue}, 0.055)`;
   variables.forEach(([x, y]) => {
     centralContext.beginPath();
     centralContext.arc(x, y, 7, 0, 2 * Math.PI);
@@ -84,10 +86,10 @@ if (centralContext) {
     [0, 1, 0, 1, 0],
     [1, 0, 1, 0, 1],
   ];
-  const spinColors = ["rgba(45, 98, 83, 0.08)", "rgba(76, 94, 121, 0.08)"];
+  const spinColors = [`rgba(${backgroundBlue}, 0.08)`, "rgba(76, 94, 121, 0.08)"];
   const spacing = 82;
 
-  centralContext.strokeStyle = "rgba(45, 98, 83, 0.045)";
+  centralContext.strokeStyle = `rgba(${backgroundBlue}, 0.045)`;
   centralContext.beginPath();
   spinStates.forEach((row, rowIndex) => {
     row.forEach((spin, columnIndex) => {
