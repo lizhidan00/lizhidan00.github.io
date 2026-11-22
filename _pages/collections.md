@@ -1,5 +1,4 @@
 ---
-layout: academic
 permalink: /collections
 title: "Collections"
 excerpt: "Collections"
