@@ -6,7 +6,7 @@
     {% assign publication_label = publication_title | strip_html | escape_once %}
     <li class="publication">
       <div class="publication__details">
-        <h2 class="publication__title">{{ publication_title }}</h2>
+        <h3 class="publication__title">{{ publication_title }}</h3>
         <p class="publication__authors">
           {%- for name in paper.authors -%}
             {%- assign author_url = site.data.publications.author_links[name] -%}
