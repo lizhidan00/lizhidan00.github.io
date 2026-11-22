@@ -8,6 +8,7 @@
 
 :root {
   color-scheme: light;
+  font-size: 100%;
   --paper: #fff;
   --ink: #23354a;
   --text: #334152;
@@ -16,7 +17,11 @@
   --accent-light: #a4c3e0;
   --rule: #d6e2ee;
   --tint: #f4f8fc;
+  --body-font: "Times New Roman", Times, serif;
   --page-gutter: clamp(1.25rem, 5vw, 3rem);
+  --section-start: clamp(2.5rem, 5.5vw, 5.25rem);
+  --section-end: clamp(3.5rem, 7vw, 5.75rem);
+  --entry-gap: 1.75rem;
 }
 
 *, *::before, *::after {
@@ -70,7 +75,9 @@ body {
   mask-image: linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
 }
 
-h1, h2, h3, p, ul, ol {
+:where(body:not(.legacy-layout) :is(h1, h2, h3, h4, p, ul, ol)),
+.site-nav,
+.text-links {
   margin: 0;
 }
 
@@ -97,7 +104,7 @@ a:hover {
 }
 
 a:focus-visible,
-.publication__summary > summary:focus-visible,
+summary:focus-visible,
 .publication__copy:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
@@ -155,6 +162,11 @@ a:focus-visible,
   list-style: none;
 }
 
+.site-nav li,
+.text-links li {
+  margin: 0;
+}
+
 .site-nav {
   gap: 0.15rem clamp(1rem, 3vw, 2rem);
   font-size: 0.875rem;
@@ -175,8 +187,8 @@ a:focus-visible,
 
 main {
   flex: 1;
-  padding-block: clamp(2.5rem, 5.5vw, 5.25rem) clamp(3.5rem, 7vw, 5.75rem);
-  font-family: "Times New Roman", Times, serif;
+  padding-block: var(--section-start) var(--section-end);
+  font-family: var(--body-font);
 }
 
 .profile {
@@ -254,9 +266,11 @@ main {
   font-size: clamp(1.95rem, 3.5vw, 2.6rem);
 }
 
-.publication-list {
+.publication-list,
+.academic-timeline {
+  display: grid;
+  gap: var(--entry-gap);
   padding: 0;
-  border-top: 1px solid var(--rule);
   list-style: none;
 }
 
@@ -265,8 +279,6 @@ main {
   justify-content: space-between;
   align-items: baseline;
   gap: 0.5rem 1.75rem;
-  padding-block: 1.2rem;
-  border-bottom: 1px solid var(--rule);
 }
 
 .publication__title {
@@ -283,15 +295,18 @@ main {
   margin-top: 0.6rem;
 }
 
-.publication__summary > summary {
-  width: fit-content;
+.page-content details > summary {
   color: var(--accent);
-  font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
 }
 
-.publication__summary > summary:hover {
+.publication__summary > summary {
+  width: fit-content;
+  font-size: 0.875rem;
+}
+
+.page-content details > summary:hover {
   text-decoration: underline;
   text-underline-offset: 0.22em;
 }
@@ -374,18 +389,18 @@ main {
   max-width: 51rem;
 }
 
-.page-heading {
-  padding-bottom: 1.15rem;
-  border-bottom: 1px solid var(--rule);
-}
-
-.page-heading h1 {
+.page-heading h1,
+.legacy-content #main .page__title {
   font-size: clamp(3rem, 6vw, 4.75rem);
   letter-spacing: -0.035em;
 }
 
 .page-content {
   margin-top: 1.75rem;
+}
+
+.page-content h3 {
+  font-family: inherit;
 }
 
 .page-content > * + * {
@@ -409,18 +424,16 @@ main {
   margin-top: 0.25rem;
 }
 
-.page-content li:not(.publication) + li:not(.publication) {
+.page-content :is(ul:not(.academic-timeline), ol:not(.publication-list)) > li + li {
   margin-top: 0.35rem;
 }
 
-.academic-timeline {
-  padding: 0;
-  list-style: none;
+.teaching-location > summary {
+  padding-block: 0.55rem;
 }
 
-.academic-timeline > li {
-  padding-block: 0.8rem;
-  border-bottom: 1px solid var(--rule);
+.teaching-location > ul {
+  padding-bottom: 0.75rem;
 }
 
 .academic-timeline__heading {
@@ -455,6 +468,37 @@ main {
   padding-block: 1.35rem;
 }
 
+/* Keep the original archive and post components inside the shared site layout. */
+.legacy-layout {
+  padding-bottom: 0;
+}
+
+.legacy-content {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--body-font);
+}
+
+.legacy-content #main {
+  width: min(calc(100% - 2 * var(--page-gutter)), 64rem);
+  margin: var(--section-start) auto var(--section-end);
+  padding: 0;
+  animation: none;
+}
+
+.legacy-content :is(.page__content h3, .archive__item-title) {
+  font-family: inherit;
+}
+
+.legacy-content :is(.page__content h2, .archive__subtitle) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.legacy-content iframe {
+  max-width: 100%;
+}
+
 @media (max-width: 80rem) {
   body {
     background-image: none;
@@ -477,6 +521,12 @@ main {
   }
 
   .research-background {
+    display: none;
+  }
+}
+
+@media print {
+  .site-header, .site-footer {
     display: none;
   }
 }
