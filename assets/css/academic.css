@@ -1,21 +1,13 @@
-@font-face {
-  font-family: "Cormorant Garamond";
-  src: url("../fonts/cormorant-garamond-v16-latin-600.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-}
-
 :root {
   color-scheme: light;
   --paper: #fff;
-  --ink: #24322d;
-  --text: #343b37;
-  --muted: #565f5a;
-  --accent: #2d6253;
-  --rule: #d7ded6;
-  --serif: "Cormorant Garamond", Georgia, serif;
-  --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ink: #23354a;
+  --text: #334152;
+  --muted: #536476;
+  --accent: #2f5f8a;
+  --accent-light: #a4c3e0;
+  --rule: #d6e2ee;
+  --tint: #f4f8fc;
   --page-gutter: clamp(1.25rem, 5vw, 3rem);
 }
 
@@ -33,13 +25,13 @@ body {
   background: var(--paper);
   background-image: linear-gradient(
     90deg,
-    rgb(45 98 83 / 2.5%),
+    var(--tint),
     transparent 16%,
     transparent 84%,
-    rgb(45 98 83 / 2.5%)
+    var(--tint)
   );
   color: var(--text);
-  font: 1rem/1.7 var(--sans);
+  font: 1rem/1.7 var(--cm-roman);
   overflow-wrap: break-word;
 }
 
@@ -76,9 +68,13 @@ h1, h2, h3, p, ul, ol {
 
 h1, h2, h3 {
   color: var(--ink);
-  font-family: var(--serif);
-  font-weight: 600;
+  font-family: var(--cm-roman);
+  font-weight: 700;
   line-height: 1.08;
+}
+
+code, kbd, pre, samp {
+  font-family: var(--cm-typewriter);
 }
 
 a {
@@ -119,7 +115,7 @@ a:focus-visible,
 
 .site-header {
   background: var(--paper);
-  border-top: 3px solid var(--accent);
+  border-top: 3px solid var(--accent-light);
   border-bottom: 1px solid var(--rule);
 }
 
@@ -138,7 +134,7 @@ a:focus-visible,
 
 .site-name {
   color: var(--ink);
-  font: 600 1.75rem/1 var(--serif);
+  font: 700 1.75rem/1 var(--cm-roman);
   text-decoration: none;
 }
 
@@ -199,7 +195,7 @@ main {
 
 .profile h1 span {
   color: var(--muted);
-  font: 400 clamp(1.25rem, 2.2vw, 1.7rem)/1.2 var(--sans);
+  font: 400 clamp(1.25rem, 2.2vw, 1.7rem)/1.2 var(--cm-roman);
   letter-spacing: 0;
 }
 
@@ -301,7 +297,7 @@ main {
   margin: 0.6rem 0;
   padding: 0.85rem;
   border: 1px solid var(--rule);
-  background: #f6f8f6;
+  background: var(--tint);
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   font-size: 0.875rem;
@@ -344,7 +340,7 @@ main {
 
 .publication__authors a {
   color: inherit;
-  text-decoration-color: #a9b1ab;
+  text-decoration-color: var(--accent-light);
 }
 
 .publication__authors a:hover {
