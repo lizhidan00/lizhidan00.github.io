@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/cormorant-garamond-v16-latin-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --paper: #fff;
@@ -188,7 +196,9 @@ main {
   align-items: baseline;
   gap: 0.3rem 1.15rem;
   margin-bottom: 1rem;
+  font-family: "Cormorant Garamond", Garamond, serif;
   font-size: clamp(3.5rem, 6.15vw, 5.75rem);
+  font-weight: 600;
   letter-spacing: -0.045em;
   line-height: 0.96;
 }
