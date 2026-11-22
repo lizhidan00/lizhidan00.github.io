@@ -8,25 +8,10 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/computer-modern.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
-    <script src="{{ '/assets/js/research-background.js' | relative_url }}" defer></script>
   </head>
   <body>
-    <canvas class="research-background research-background--tree" width="480" height="800" data-structure="tree" aria-hidden="true"></canvas>
-    <canvas class="research-background research-background--graph" width="480" height="800" data-structure="graph" aria-hidden="true"></canvas>
-    <canvas class="research-background research-background--center" width="1200" height="1000" aria-hidden="true"></canvas>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <div class="site-width site-header__inner">
-        <a class="site-name" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title | escape }}</a>
-        <nav aria-label="Main navigation">
-          <ul class="site-nav">
-            {% for item in site.data.navigation.main %}
-              <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </div>
-    </header>
+    {% include research-background.html %}
+    {% include site-header.html %}
 
     <main class="site-width {% if page.url == '/' %}home{% else %}interior{% endif %}" id="main" tabindex="-1">
       {% if page.url == '/' %}
@@ -37,14 +22,6 @@
       {% endif %}
     </main>
 
-    <footer class="site-footer">
-      <div class="site-width site-footer__inner">
-        <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}</span>
-        <ul class="text-links" role="list">
-          <li><a href="{{ '/talks/' | relative_url }}"{% if page.url == '/talks/' %} aria-current="page"{% endif %}>Talks</a></li>
-          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
-        </ul>
-      </div>
-    </footer>
+    {% include site-footer.html %}
   </body>
 </html>
