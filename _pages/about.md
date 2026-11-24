@@ -2,7 +2,7 @@
 permalink: /
 layout: academic
 title: "Zhidan Li"
-description: "Zhidan Li is a Ph.D. candidate at Shanghai Jiao Tong University working on approximate counting and sampling."
+description: "Zhidan Li is a Ph.D. candidate at the School of Computer Science, Shanghai Jiao Tong University, working on approximate counting and sampling."
 author_profile: false
 redirect_from: 
   - /about/

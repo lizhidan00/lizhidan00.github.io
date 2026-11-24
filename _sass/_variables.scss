@@ -13,9 +13,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* site typefaces */
-$serif                      : var(--cm-roman);
+$serif                      : var(--site-font);
 $sans-serif                 : $serif;
-$monospace                  : var(--cm-typewriter);
+$monospace                  : $serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
