@@ -15,7 +15,7 @@ redirect_from:
       <h3>Ph.D. in Computer Science</h3>
       <span class="academic-timeline__date"><time datetime="2023-09">Sep 2023</time> – present</span>
     </div>
-    <p>Shanghai Jiao Tong University</p>
+    <p>{{ site.author.bio }}</p>
     <p>Supervisor: <a href="https://jhc.sjtu.edu.cn/~kuanyang/">Kuan Yang</a></p>
   </li>
   <li>

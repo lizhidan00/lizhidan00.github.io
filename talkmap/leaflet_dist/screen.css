@@ -1,4 +1,11 @@
 
+	body,
+	.leaflet-container,
+	.leaflet-control-zoom a,
+	.marker-cluster div {
+		font-family: var(--site-font);
+	}
+
 	#map {
 		width: 800px; 
 		height: 600px; 
@@ -27,4 +34,3 @@
 	    background-color: #76A6FC;
 	    border-radius: 4px;
 	}
-        

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhidan Li"
 title_separator          : "-"
 name                     : &name "Zhidan Li"
-description              : &description "Academic homepage of Zhidan Li, Ph.D. candidate at Shanghai Jiao Tong University."
+description              : &description "Academic homepage of Zhidan Li, Ph.D. candidate at the School of Computer Science, Shanghai Jiao Tong University."
 url                      : https://lizhidan00.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lizhidan00/lizhidan00.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhidan Li"
   avatar           : "2024-Zhidan-in-Egypt.png"
-  bio              : "John Hopcroft Center, Shanghai Jiao Tong University"
+  bio              : "School of Computer Science, Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/cormorant-garamond-variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/cormorant-garamond-variable-italic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AR PL KaitiM GB";
+  src: url("../fonts/arphic-kaiti/gkai00mp.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+2E80-2FFF, U+3000-303F, U+31C0-31EF, U+3400-9FFF, U+F900-FAFF, U+20000-2FA1F;
+}
+
+/* Later faces take precedence for these three characters, keeping the home page download small. */
+@font-face {
+  font-family: "AR PL KaitiM GB";
+  src: url("../fonts/arphic-kaiti/gkai00mp-home.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+4E39, U+674E, U+81F3;
+}
+
+:root {
+  --site-font: "Cormorant Garamond", "Kaiti SC", KaiTi, STKaiti, "AR PL KaitiM GB", serif;
+}

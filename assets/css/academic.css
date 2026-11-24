@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Cormorant Garamond";
-  src: url("../fonts/cormorant-garamond-v16-latin-600.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   color-scheme: light;
   --paper: #fff;
@@ -39,7 +31,7 @@ body {
     var(--tint)
   );
   color: var(--text);
-  font: 1rem/1.7 var(--cm-roman);
+  font: 1rem/1.7 var(--site-font);
   overflow-wrap: break-word;
 }
 
@@ -76,13 +68,12 @@ h1, h2, h3, p, ul, ol {
 
 h1, h2, h3 {
   color: var(--ink);
-  font-family: var(--cm-roman);
   font-weight: 700;
   line-height: 1.08;
 }
 
 code, kbd, pre, samp {
-  font-family: var(--cm-typewriter);
+  font-family: inherit;
 }
 
 a {
@@ -143,7 +134,7 @@ a:focus-visible,
 
 .site-name {
   color: var(--ink);
-  font: 700 1.75rem/1 var(--cm-roman);
+  font: 700 1.75rem/1 var(--site-font);
   text-decoration: none;
 }
 
@@ -177,7 +168,6 @@ a:focus-visible,
 main {
   flex: 1;
   padding-block: clamp(2.5rem, 5.5vw, 5.25rem) clamp(3.5rem, 7vw, 5.75rem);
-  font-family: "Times New Roman", Times, serif;
 }
 
 .profile {
@@ -197,7 +187,6 @@ main {
   align-items: baseline;
   gap: 0.3rem 1.15rem;
   margin-bottom: 1rem;
-  font-family: "Cormorant Garamond", Garamond, serif;
   font-size: clamp(3.5rem, 6.15vw, 5.75rem);
   font-weight: 600;
   letter-spacing: -0.045em;
@@ -206,7 +195,9 @@ main {
 
 .profile h1 span {
   color: var(--muted);
-  font: 400 clamp(1.25rem, 2.2vw, 1.7rem)/1.2 var(--cm-roman);
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  font-weight: 400;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
